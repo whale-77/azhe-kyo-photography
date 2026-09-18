@@ -2,7 +2,17 @@
 import rawPhotos from '../photo-manifest.json';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const photos = Object.fromEntries(Object.entries(rawPhotos).map(([album, images]) => [album, images.map((image) => ({ ...image, src: `${base}${image.src}` }))]));
+const cloudName = 'hqxaxhvx';
+const cloudUrl = (publicId, width, quality = 'auto') => `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_${quality},w_${width},c_limit/${publicId}`;
+const photos = Object.fromEntries(Object.entries(rawPhotos).map(([album, images]) => [album, images.map((image, index) => {
+  const publicId = `kyo-portfolio/${album}/${String(index + 1).padStart(2, '0')}`;
+  return {
+    ...image,
+    src: cloudUrl(publicId, 1600),
+    thumb: cloudUrl(publicId, 720, 'auto:good'),
+    srcset: [480, 720, 1200, 1600, 2200].map((width) => `${cloudUrl(publicId, width)} ${width}w`).join(', '),
+  };
+})]));
 
 const series = [
   { id: 'miyajima', place: '宫岛', en: 'MIYAJIMA', season: '秋', seasonEn: 'AUTUMN', date: '2025.11', picks: [0, 3] },
@@ -56,7 +66,7 @@ const cover = photos.kyoto[8];
     </header>
     <main>
       <section class="cover" aria-label="摄影作品集封面">
-        <img class="cover-image" src={cover.src} width={cover.width} height={cover.height} alt="京都秋季红叶摄影" fetchpriority="high" decoding="sync" />
+        <img class="cover-image" src={cover.src} srcset={cover.srcset} sizes="100vw" width={cover.width} height={cover.height} alt="京都秋季红叶摄影" fetchpriority="high" decoding="async" />
         <div class="cover-caption">KYO PHOTOGRAPHY<br />A STUDY OF PLACE AND SEASON</div>
         <p class="cover-meta">#PLACE&nbsp;&nbsp;#SEASON&nbsp;&nbsp;#LIGHT</p>
         <p class="cover-credit">PHOTOGRAPHY BY 阿柘 / KYO</p>
@@ -64,7 +74,7 @@ const cover = photos.kyoto[8];
       <section class="block block--main scroll-stage" aria-label="摄影作品集首页">
         <div class="block__wrapper sticky-world">
           <p class="eyebrow">阿柘 / KYO — PHOTOGRAPHS 2025—2026</p>
-          <div class="gallery" aria-hidden="true"><div class="gallery__grid grid">{tiles.map((tile) => <figure class="gallery__item tile"><img class="gallery__image" src={tile.image.src} alt="" loading="eager" decoding="async" /><figcaption></figcaption></figure>)}</div></div>
+          <div class="gallery" aria-hidden="true"><div class="gallery__grid grid">{tiles.map((tile) => <figure class="gallery__item tile"><img class="gallery__image" src={tile.image.thumb} srcset={tile.image.srcset} sizes="(max-width:720px) 34vw, 18vw" alt="" loading="eager" decoding="async" /><figcaption></figcaption></figure>)}</div></div>
           <div class="content center-copy"><h1 class="content__title">Somewhere,<em>in season.</em></h1><p class="content__description">A structured, scroll-driven archive of place, season and light.</p><a class="content__button" href={`${base}/`}>进入作品</a></div>
           <div class="progress" aria-hidden="true"><i></i></div><p class="scroll-note">SCROLL TO JOURNEY</p>
         </div>
@@ -151,3 +161,4 @@ const cover = photos.kyoto[8];
     </script>
   </body>
 </html>
+
