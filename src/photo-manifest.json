@@ -1,0 +1,368 @@
+{
+  "miyajima": [
+    {
+      "src": "/photos/miyajima/01.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/miyajima/02.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/miyajima/03.webp",
+      "width": 3840,
+      "height": 2160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/miyajima/04.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/miyajima/05.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/miyajima/06.webp",
+      "width": 6041,
+      "height": 3398,
+      "alt": ""
+    }
+  ],
+  "onomichi": [
+    {
+      "src": "/photos/onomichi/01.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/onomichi/02.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/onomichi/03.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/onomichi/04.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/onomichi/05.webp",
+      "width": 6040,
+      "height": 4027,
+      "alt": ""
+    },
+    {
+      "src": "/photos/onomichi/06.webp",
+      "width": 4096,
+      "height": 2730,
+      "alt": ""
+    }
+  ],
+  "kyoto": [
+    {
+      "src": "/photos/kyoto/01.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/02.webp",
+      "width": 4897,
+      "height": 3265,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/03.webp",
+      "width": 3941,
+      "height": 5912,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/04.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/05.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/06.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/07.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/08.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/09.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/10.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/11.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/12.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/13.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/14.webp",
+      "width": 3308,
+      "height": 4962,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/15.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/16.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/17.webp",
+      "width": 3787,
+      "height": 5680,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/18.webp",
+      "width": 3998,
+      "height": 5997,
+      "alt": ""
+    },
+    {
+      "src": "/photos/kyoto/19.webp",
+      "width": 5739,
+      "height": 3826,
+      "alt": ""
+    }
+  ],
+  "hokkaido": [
+    {
+      "src": "/photos/hokkaido/01.webp",
+      "width": 4614,
+      "height": 3075,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/02.webp",
+      "width": 5961,
+      "height": 3974,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/03.webp",
+      "width": 5315,
+      "height": 3543,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/04.webp",
+      "width": 2139,
+      "height": 3208,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/05.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/06.webp",
+      "width": 5810,
+      "height": 3873,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/07.webp",
+      "width": 4160,
+      "height": 2773,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/08.webp",
+      "width": 5879,
+      "height": 3919,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/09.webp",
+      "width": 3964,
+      "height": 5946,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/10.webp",
+      "width": 5530,
+      "height": 3687,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/11.webp",
+      "width": 5229,
+      "height": 3486,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hokkaido/12.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    }
+  ],
+  "hiroshima": [
+    {
+      "src": "/photos/hiroshima/01.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hiroshima/02.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hiroshima/03.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hiroshima/04.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hiroshima/05.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hiroshima/06.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/hiroshima/07.webp",
+      "width": 5712,
+      "height": 3808,
+      "alt": ""
+    }
+  ],
+  "tokyo": [
+    {
+      "src": "/photos/tokyo/01.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/tokyo/02.webp",
+      "width": 4798,
+      "height": 3199,
+      "alt": ""
+    },
+    {
+      "src": "/photos/tokyo/03.webp",
+      "width": 3691,
+      "height": 5537,
+      "alt": ""
+    },
+    {
+      "src": "/photos/tokyo/04.webp",
+      "width": 5585,
+      "height": 3723,
+      "alt": ""
+    },
+    {
+      "src": "/photos/tokyo/05.webp",
+      "width": 5301,
+      "height": 3534,
+      "alt": ""
+    },
+    {
+      "src": "/photos/tokyo/06.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    },
+    {
+      "src": "/photos/tokyo/07.webp",
+      "width": 4160,
+      "height": 6240,
+      "alt": ""
+    },
+    {
+      "src": "/photos/tokyo/08.webp",
+      "width": 3653,
+      "height": 5478,
+      "alt": ""
+    },
+    {
+      "src": "/photos/tokyo/09.webp",
+      "width": 6240,
+      "height": 4160,
+      "alt": ""
+    }
+  ]
+}

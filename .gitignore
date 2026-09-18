@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+.openai/
+.review-frames/
+gallery-preview.png
+incoming-*/
+冬-*/
+夏-*/
+秋-*/
+春-*/
+*.mp4
+*.HEIC
+*.JPG
+*.JPEG
+*.PNG
